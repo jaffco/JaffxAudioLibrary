@@ -1,6 +1,5 @@
 # JaffxAudioLibrary
 
-A Jaffx Audio Module (`.jam`) is a compiled WebAssembly (WASM) binary that exports two functions:
+A Jaffx Audio Module (`.jam`) is a compiled WebAssembly (WASM) binary that exports one function:
 
-1. `init(samplerate)`
-2. `processAudio(float** inputs, float** outputs, unsigned int numSamples)`
+1. `processAudio(float* inputs, float* outputs, int numSamples)`
